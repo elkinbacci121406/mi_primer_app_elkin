@@ -1,0 +1,26 @@
+[
+  {
+    "id": "inc-001",
+    "tipo": "Hueco en la vía",
+    "descripcion": "Hueco de medio metro en la carrera 19 con calle 16.",
+    "ubicacion": { "latitud": 10.4631, "longitud": -73.2532, "via": "Carrera 19" },
+    "creadoEn": "2026-08-10T19:05:00Z",
+    "estado": { "tipo": "en_revision", "asignadoA": "cuadrilla-2" }
+  },
+  {
+    "id": "inc-002",
+    "tipo": "Semáforo dañado",
+    "descripcion": "Semáforo apagado en la avenida Simón Bolívar con calle 44.",
+    "ubicacion": { "latitud": 10.4487, "longitud": -73.2601, "via": "Avenida Simón Bolívar" },
+    "creadoEn": "2026-08-11T04:40:00Z",
+    "estado": { "tipo": "reportado" }
+  },
+  {
+    "id": "inc-003",
+    "tipo": "Cruce peligroso",
+    "descripcion": "Cruce sin señalización cerca del parque Los Fundadores.",
+    "ubicacion": { "latitud": 10.4702, "longitud": -73.2489, "via": "Calle 30" },
+    "creadoEn": "2026-08-09T13:20:00Z",
+    "estado": { "tipo": "rechazado", "motivo": "Falta la ubicación exacta: no se puede verificar." }
+  }
+]
