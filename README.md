@@ -1,22 +1,17 @@
-# mi_primer_app_elkin
+# Incidentes viales — Valledupar
 
-A new Flutter project.
+App para que ciudadanos reporten incidentes viales (huecos, semáforos dañados, cruces peligrosos) y la secretaría de movilidad les dé seguimiento hasta resolverlos.
 
-## Getting Started
+## El dominio
 
-This project is a starting point for a Flutter application.
+- `IncidenteVial` — entidad principal. Identidad: `id`.
+- `Ubicacion` — objeto de valor.
+- `EstadoIncidente` — sellada: Reportado · EnRevision · EnReparacion · Resuelto · Rechazado.
 
-A few resources to get you started if this is your first Flutter project:
+Decisión: modelo escrito a mano, sin freezed, porque el mensaje de error de `CampoInvalido` es más útil para depurar que el genérico de freezed.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Cómo correrlo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Flutter doctor screenshot
-
-![Flutter doctor](image.png)
-
+    flutter pub get
+    flutter test
+    flutter run
